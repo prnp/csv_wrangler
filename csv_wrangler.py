@@ -230,9 +230,10 @@ class csv_wrangler():
             box.showinfo("Error", "Error saving file: %s \n %s" % (export_file,detail))
 
     def __openSettings(self):
-        """Open a new window to manipulate program settings"""
+        """TODO: Open a new window to manipulate program settings"""
         settings_win = tk.Toplevel()
         settings_win.title("Application Settings")
+	
 
     def __onExit(self):
         """Things we do before exiting the application"""
